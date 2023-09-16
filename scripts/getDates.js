@@ -11,5 +11,5 @@ function formatDate(date) {
 }
 
 // Get the last modified date and set it in the "lastModified" span
-const lastModified = new Date(document.lastModified);
-document.getElementById('lastModified').textContent = formatDate(lastModified);
+let oLastModif = new Date(document.lastModified);
+document.getElementById('lastModified').textContent = formatDate(oLastModif);
