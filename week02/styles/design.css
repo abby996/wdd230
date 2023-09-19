@@ -37,7 +37,7 @@ h3 {
 article p {
 	text-align: justify;
     grid-template-columns: 1/2;
-    width: 300px;
+    width: 500px;
 }
 
 .list {
