@@ -27,19 +27,21 @@ header{
 
 h1{
     text-align: center;
-    font-family: "font-family: 'Mooli', sans-serif";
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #bbb;
-    margin:left;
+    margin-left:1%;
     
 }
 
 h2
 {text-align: center;
  background-color: #fff;   
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h3{
     text-align: center;
     background-color: burlywood;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .activity{ 
     background-color: #068ce6;

@@ -2,3 +2,97 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
+header{
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: #007bff;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 2px solid rgb(0, 0, 0, 0.1);
+   
+}
+h1 {text-align: center;
+color: rgb(253, 4, 4);
+margin-left: 20%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p {
+    color:rgb(62, 62, 207);
+    margin-bottom: 5%;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+}
+
+section {
+    width: 800px;
+    background: #f8f6f6;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 2px solid rgb(0, 0, 0, 0.1);
+}
+h2{
+    color: rgb(255, 179, 80);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    color: rgb(201, 51, 203);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    color: rgb(235, 217, 18);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    width: 800px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 2px solid rgb(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0 auto;
+    padding: 0 auto;
+  
+}
+
+
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 785px;
+   
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
