@@ -1,12 +1,18 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 header{
     display: flex;
     width: 800px;
-    height: 200px;
-    background: rgb(168, 206, 175);
+    height: 100px;
+    background-color: #007bff;
+    color: #fff;
     margin: 0 auto;
     padding: 0 auto;
     border: 2px solid rgb(0, 0, 0, 0.1);
@@ -34,10 +40,16 @@ section {
     margin: 0 auto;
     padding: 0 auto;
     border: 2px solid rgb(0, 0, 0, 0.1);
+
+}
+section li {
+	margin-left: 5%;
 }
 h2{
     color: rgb(255, 179, 80);
     text-align: center;
+	font-size: 1.2rem;
+	margin: 1rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h3{
@@ -53,9 +65,63 @@ h4{
 
 footer {
     width: 800px;
-    background: rgb(153, 173, 209);
+    background-color: #747171;
+    color: #fff;
     text-align: center;
     margin: 0 auto;
     padding: 0 auto;
     border: 2px solid rgb(0, 0, 0, 0.1);
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0 auto;
+    padding: 0 auto;
+  
+}
+
+
+
+
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+
+
+
+ /*h1 {
+	text-align: left;
+	font-family: times, serif;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}
+
+	/*h2 {font-size: 1.2rem;
+		color: navy;
+		text-align: left;
+		margin: 1rem;
+		
+	}
+
+nav {
+	max-width: 700px;
+	margin: 1rem auto;
+}
+
+/* small view navigation */
