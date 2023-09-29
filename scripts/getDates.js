@@ -14,6 +14,24 @@ function formatDate(date) {
 let oLastModif = new Date(document.lastModified);
 document.getElementById('lastModified').textContent = formatDate(oLastModif);
 
+//temperature
+
+function afficherTemperature() {
+    const temperatureCelsius = 25; // Remplacez cette valeur par la température en degrés Celsius que vous avez
+    const temperatureFahrenheit = (temperatureCelsius * 9/5) + 32;
+    const soleilEmoji = "\u{1F31E}";
+    const temperatureOutput = document.getElementById("temperatureOutput");
+    temperatureOutput.textContent = ` : ${temperatureFahrenheit}°F ${soleilEmoji} - Sunshine`;
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    afficherTemperature();
+    
+});
+
+
+
+
 
 
 // Navigation menu
