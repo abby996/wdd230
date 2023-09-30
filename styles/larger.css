@@ -9,7 +9,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 180px;
+    height: 150px;
     border: 2px solid rgba(0, 0, 0, 0.1);
     max-width: 850px;
     font-size: 22px;
@@ -19,15 +19,6 @@ header{
 }
 
 
-
-.picture  { 
-    width: 150px;
-    height: 170px;
-    padding-top: 5px;
-    font-display: left;
-    margin-left: 20%;
-    border: #060a0c;
-}
 
 body {font-weight: 400;
 	display: flex;
@@ -47,9 +38,10 @@ h1{
 }
 
 h2
-{text-align: center;
+{text-align: left;
     color: #355eab;
     text-decoration: underline;
+	margin-left: 3%;
     
  
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -91,24 +83,28 @@ nav ul {
     }
     
 }
-main {
-    
-    margin: 0;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	padding: 1rem;
-	width: 760px;
-	background-color: #eee;
-	color: #000;
-}
+
 main ul {
     width: 550px;
 }
-main p h3{
-    width: 180px;
-    
-  
-    
+
+main p h3 {
+	width: 180px;
+	text-align: center;
+font-family: 	'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
+main {
+	margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	
+	background-color: #eee;
+	color: #000;
+
+	grid-row-gap: 20px;
+}
+
 
 section {
     text-align: center;
@@ -118,6 +114,7 @@ section {
     border: 2px solid rgba(0, 0, 0, 0.1);
     height:200px;
     margin-bottom: 5%;
+	margin-left: 3%;
 
     
 }
@@ -127,11 +124,13 @@ section li{
    
     text-align: left;
     margin-left: 5%;
+	padding: 0 auto;
 
 }
 
 
-
+section:nth-child(1) {
+    grid-column: 1 / span 2}
 
 img.flag {
     width: 40px;
@@ -262,4 +261,49 @@ footer {text-align: center;
 		margin: 1rem auto;
 	}
 }
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+.hero {
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+	width: 700px;
+	margin-left: 2%;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #97864d);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Great Vibes", serif;
+}
+
 
