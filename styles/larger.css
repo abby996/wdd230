@@ -20,7 +20,7 @@ header{
 
 
 
-body {font-weight: 400;
+body {font-weight: 400px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -41,7 +41,7 @@ h2
 {text-align: left;
     color: #355eab;
     text-decoration: underline;
-	margin-left: 3%;
+	margin-left: 10%;
     
  
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -96,13 +96,17 @@ font-family: 	'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sa
 }
 main {
 	margin: 0;
-	border: 1px solid rgba(0, 0, 0, 0.2);
+	
 	padding: 1rem;
 	
-	background-color: #eee;
+	
 	color: #000;
 
 	grid-row-gap: 20px;
+}
+iframe {margin-left: 15%;
+	width:130%
+
 }
 
 
@@ -114,7 +118,7 @@ section {
     border: 2px solid rgba(0, 0, 0, 0.1);
     height:200px;
     margin-bottom: 5%;
-	margin-left: 3%;
+	margin-left: 15%;
 
     
 }
@@ -277,7 +281,7 @@ footer {text-align: center;
 	border: 1px solid rgba(0,0,0,.1);
 	height: 300px;
 	width: 700px;
-	margin-left: 2%;
+	margin-left: 12%;
 }
 
 .hero img {
