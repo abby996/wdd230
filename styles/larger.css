@@ -105,7 +105,8 @@ main {
 	grid-row-gap: 20px;
 }
 iframe {margin-left: 15%;
-	width:130%
+	width:128%;
+	padding: 1px;
 
 }
 
@@ -308,6 +309,17 @@ footer {text-align: center;
 	font-weight: 700;
 	font-size: 2rem;
 	font-family:"Great Vibes", serif;
+}
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
 }
 
 
