@@ -1,5 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	place-items: center;
+	justify-content: center;
+	font-family: Roboto, sans-serif;
+}
+
+main {
+	margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	width: 760px;
+	background-color: rgba(225, 225, 255, 0.2);
+}
+
+p {
+	margin: 1rem;
+	display: flex;
+}
+
+.label {
+	display: block;
+	width: 175px;
+	font-weight: 700;
+	color: navy;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.smaller {
+	font-size: smaller;
+}
+
+div{margin:0 auto;
+width:100%;
+height:100%
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Sidebar takes 1/4 and main content 3/4 of the width */
+    gap: 20px; /* Adjust the gap between columns */
+}
+
+.sidebar {background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px
+    /* Styling for the sidebar */
+}
+
+.main-content {background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+    padding: 20px
+    /* Styling for the main content area */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Single column layout for mobile */
+    }
+}
+
+
 /*.stdlf {
 	font-weight: 700;border-bottom: 1px solid #777; margin-bottom: 1rem;
 }
@@ -71,3 +146,43 @@ figcaption {font-size: smaller;}
 
 .pic div:nth-of-type(3), .pic div:nth-of-type(8), .pic div:nth-of-type(13)  {	grid-column: 3/5; }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	place-items: center;
+	justify-content: center;
+	font-family: Roboto, sans-serif;
+}
+
+main {
+	margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	width: 760px;
+	background-color: rgba(225, 225, 255, 0.2);
+}
+
+p {
+	margin: 1rem;
+	display: flex;
+}
+
+.label {
+	display: block;
+	width: 175px;
+	font-weight: 700;
+	color: navy;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.smaller {
+	font-size: smaller;
+}
