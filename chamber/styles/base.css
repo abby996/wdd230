@@ -9,7 +9,7 @@ header nav {
 	display: flex;
     align-items: center;
     justify-content: center;
-    height: 0 ;
+    height: 0 auto;
     border: 2px solid rgba(0, 0, 0, 0.1);
     width: 900px;
     font-size: 22px;
