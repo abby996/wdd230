@@ -1,0 +1,51 @@
+
+
+
+
+body {
+	font-family: Roboto, Arial, sans-serif;
+	margin: 1rem;
+}
+
+h1 {
+	font-size: 1.75rem;
+	color: navy;
+	border-bottom: 1px solid #bbb;
+}
+
+hr {
+	margin-bottom: 40px;
+}
+
+
+label {
+	display: block;
+	font-weight: 700;
+}
+
+input[type=text], input[type=range], input[type=password] , input[type=email], input[type=password2]{
+	margin: 1rem;
+	padding: 0.5em;
+}
+
+
+
+#r {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 25px;
+	width: 200px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
