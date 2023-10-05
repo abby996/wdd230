@@ -65,6 +65,7 @@ label {
 
 input[type="text"],
 input[type="password"],
+input[type="password2"],
 input[type="email"],
 input[type="range"] {
     margin: 8px 0;
@@ -76,6 +77,7 @@ input[type="range"] {
 
 input[type="text"]:focus,
 input[type="password"]:focus,
+input[type="password2"]:focus,
 input[type="email"]:focus,
 input[type="range"]:focus {
     outline: none;
