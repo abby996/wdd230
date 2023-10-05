@@ -1,51 +1,97 @@
+/* :root variables for common property settings */
+:root {
+    --primary-color: #627487; /* Define a primary color variable */
+    --font-family: Arial, sans-serif; /* Define a font family variable */
+    --spacing: 20px; /* Define a spacing variable */
+}
 
-
-
-
+/* Apply styles using the defined CSS variables */
 body {
-	font-family: Roboto, Arial, sans-serif;
-	margin: 1rem;
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
-h1 {
-	font-size: 1.75rem;
-	color: navy;
-	border-bottom: 1px solid #bbb;
+/* Style the navigation menu */
+nav {
+    margin: 0 auto;
+    max-width: 1180px;
+    background-color: var(--primary-color);
+    text-align: center; /* Center-align the menu items */
+    padding: var(--spacing) 0; /* Add spacing to the top and bottom of the navigation */
 }
 
-hr {
-	margin-bottom: 40px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
+nav ul li {
+    display: inline;
+    margin-right: var(--spacing); /* Adjust the margin using the spacing variable */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Text color for navigation links */
+    font-weight: bold;
+    padding: 10px 20px; /* Add padding to improve clickability */
+}
+
+nav ul li a:hover {
+    background-color: #eee;
+    color: #333;
+}
+
+
+
+/* Style the form */
+form {
+    background-color: #fff;
+    padding: var(--spacing);
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    border-radius: 8px;
+}
 
 label {
-	display: block;
-	font-weight: 700;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
-input[type=text], input[type=range], input[type=password] , input[type=email], input[type=password2]{
-	margin: 1rem;
-	padding: 0.5em;
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"] {
+    margin: 8px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-
-
-#r {
-	width: 180px;
-	margin-bottom: 0;
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="range"]:focus {
+    outline: none;
+    border-color: var(--primary-color); /* Highlight input on focus */
 }
 
-#rangevalue {
-	font-size: 2rem;
-	color: navy;
+button[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-#rangevalues {
-	display: flex;
-	margin: 0 0 0 25px;
-	width: 200px;
-}
-
-#rangevalues option {
-	flex: 1 1 auto;
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
 }
