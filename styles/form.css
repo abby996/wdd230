@@ -1,8 +1,8 @@
 /* :root variables for common property settings */
 :root {
-    --primary-color: #627487; /* Define a primary color variable */
-    --font-family: Arial, sans-serif; /* Define a font family variable */
-    --spacing: 20px; /* Define a spacing variable */
+    --primary-color: #627487; 
+    --font-family: Arial, sans-serif; 
+    --spacing: 20px; 
 }
 
 /* Apply styles using the defined CSS variables */
@@ -18,8 +18,8 @@ nav {
     margin: 0 auto;
     max-width: 1180px;
     background-color: var(--primary-color);
-    text-align: center; /* Center-align the menu items */
-    padding: var(--spacing) 0; /* Add spacing to the top and bottom of the navigation */
+    text-align: center; 
+    padding: var(--spacing) 0; 
 }
 
 nav ul {
@@ -30,15 +30,14 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: var(--spacing); /* Adjust the margin using the spacing variable */
+    margin-right: var(--spacing); 
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff; /* Text color for navigation links */
-    font-weight: bold;
-    padding: 10px 20px; /* Add padding to improve clickability */
-}
+    color: #fff; 
+        font-weight: bold;
+    padding: 10px 20px; /}
 
 nav ul li a:hover {
     background-color: #eee;
@@ -81,7 +80,7 @@ input[type="password2"]:focus,
 input[type="email"]:focus,
 input[type="range"]:focus {
     outline: none;
-    border-color: var(--primary-color); /* Highlight input on focus */
+    border-color: var(--primary-color);
 }
 
 button[type="submit"] {
@@ -95,5 +94,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3; /* Darker shade for hover effect */
+    background-color: #0056b3; 
 }
