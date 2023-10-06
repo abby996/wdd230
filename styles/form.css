@@ -50,7 +50,7 @@ nav ul li a:hover {
 form {
     background-color: #fff;
     padding: var(--spacing);
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
     border-radius: 8px;
