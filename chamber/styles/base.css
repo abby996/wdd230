@@ -312,3 +312,56 @@ footer {text-align: center;
 		color: yellow;
 }
 
+
+
+
+
+
+.label {
+	display: block;
+	width: 175px;
+	font-weight: 700;
+	color: navy;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.smaller {
+	font-size: smaller;
+}
+
+div{margin:0 auto;
+width:100%;
+height:100%;
+margin-left: 20%;
+}
+
+
+main {width:100%;
+height: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Sidebar takes 1/4 and main content 3/4 of the width */
+    gap: 20px; /* Adjust the gap between columns */
+}
+
+.sidebar { /* Background color */
+    /* Text color */
+    padding: 0
+    /* Styling for the sidebar */
+}
+
+.main-content {background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+    padding: 20px
+    /* Styling for the main content area */
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Single column layout for mobile */
+    }
+}
+
