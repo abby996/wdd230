@@ -15,7 +15,7 @@ header nav {
     font-size: 22px;
     margin: 0 auto;
     padding: 0;
-	background:#fff ;
+	background:#353434 ;
 	
 }
 
@@ -41,6 +41,7 @@ h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #bbb;
     margin-left:1%;
+	
 
     
 }
@@ -82,6 +83,7 @@ nav ul{ list-style-type:none;}
 
 .picture{width: 80px;
          height: 80px;
+		 margin-right: 40%;
 }
 
 
@@ -99,12 +101,12 @@ nav ul{ list-style-type:none;}
 
 
 .pictrure {
-	width: 20px;
-    height: 30px;
+	
     padding-top: 5px;
     
-    margin-left: 20%;
+    margin-right: 20%;
     border: #060a0c;
+	margin: left;
 }
 
 #menu {
@@ -301,7 +303,7 @@ main {
 }
 
 
-.h10 {margin-bottom: 5%;}
+
 
 
 
