@@ -4,13 +4,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 
+
 form {
-    background-color: #fff;
+    background-color: #95bae9;
     padding: var(--spacing);
     max-width: 900px;
     margin: 0 auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     border-radius: 8px;
+    width: 950px;
+    display: block;
+
 }
 
 label {
@@ -47,9 +51,9 @@ input[type="email"]:focus
     border-color: var(--primary-color);
 }
 
-button[type="submit"] {
-    background-color: var(--primary-color);
-    color: #ecb4b4;
+input[type="submit"] {
+    background-color:gold;
+    color: #bc2f2f;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -57,13 +61,42 @@ button[type="submit"] {
     font-weight: bold;
 }
 
-button[type="submit"]:hover {
-    background-color: #0056b3; 
+input[type="submit"]:hover {
+    background-color: #567ea9;
+    
 }
 
 h1 {
     text-align: center;
 }
+div h2 {text-align: center;
+       color: green;
+}
+
+div h3 {text-align: center;
+
+       color: green;
+    
+}
+
+div {margin: 0 auto;
+     border: 2px solid rgba(0, 0, 0, 0.1)
+    
+}
+div li {margin-left: 3%;
+            text-align: left;
+        font-family:'Times New Roman', Times, serif;
+}
+div p {color: rgb(167, 63, 205);
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+div h1 {color: rgb(250, 0, 187);
+       background-color: #6388b0;
+       
+}
+
 
 /* Style membership levels in a two-column layout */
 .membership-levels {
@@ -87,6 +120,13 @@ h1 {
 
 
 
+
+footer p {text-align: center;
+          color: yellow;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          margin: 0 auto;
+
+}
 
 
 
