@@ -1,2 +1,15 @@
-"array= week"
+{"weeks ":
+[
+   { "week": "week 1",
+   "links":[{
+    "url": "week01/holygrail.html",
+    "title":"HG layout"},
+    {
+        "url":"week01/design.html",
+        "title":"design"
+    }
+   ]
+   }
+]
+}
 
