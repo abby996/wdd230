@@ -3,13 +3,24 @@
    { "week": "week 1",
    "links":[{
     "url": "week01/holygrail.html",
-    "title":"HG layout"},
+    "title":"Grail"},
     {
-        "url":"week01/design.html",
-        "title":"design"
+        "url":"week01/media-query.html",
+        "title":"mQueries"
     }
    ]
-   }
+   },
+   
+
+
+
+{
+    "week": "week 2",
+    "links": [{
+     "url": "week02/design.html",
+     "title":"Design"
+    }] 
+    
+}
 ]
 }
-
