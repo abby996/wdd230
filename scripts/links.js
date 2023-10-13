@@ -19,7 +19,7 @@ function displayLinks(){
 
 
     let card = document.createElement('section');
-    cards.appendChild(card);  
+    weeks.appendChild(card);  
 
 // Loop through the data and populate the list
 data.index.forEach((week) => {
