@@ -8,6 +8,66 @@
         "image": "coca_cola_logo.png",
         "membership_level": "Platinum",
         "other_info": "Coca Cola is a global beverage company."
+      },
+     
+      {
+        "name": "Natcom",
+        "address": "Ave Marthin Luther king and Fernant ,Pont morin ",
+        "phone": "+509 2222 8888",
+        "website": "https://www.natcom.com.ht",
+        "image": "natcom.jpg",
+        "membership_level": "Fast",
+        "other_info": "it is Fast, Easy and Totally Safe. Do Good and Recharge Someone's Mobile Today."
+      },
+
+      {
+        "name": "Global indutrie",
+        "address": "123 Coca Cola Ave, Atlanta, GA",
+        "phone": "1-800-GET-COKE",
+        "website": "https://www.globalindustrial.com/.com",
+        "image": "coca_cola_logo.png",
+        "membership_level": "Platinum",
+        "other_info": "Coca Cola is a global beverage company."
+      },
+     
+      {
+        "name": "Coca Cola",
+        "address": "123 Coca Cola Ave, Atlanta, GA",
+        "phone": "1-800-GET-COKE",
+        "website": "https://www.abcelectronique.com/",
+        "image": "coca_cola_logo.png",
+        "membership_level": "Platinum",
+        "other_info": "Coca Cola is a global beverage company."
+      },
+
+      {
+        "name": "Coca Cola",
+        "address": "123 Coca Cola Ave, Atlanta, GA",
+        "phone": "1-800-GET-COKE",
+        "website": "https://www.coca-cola.com",
+        "image": "coca_cola_logo.png",
+        "membership_level": "Platinum",
+        "other_info": "Coca Cola is a global beverage company."
+      },
+
+      {
+        "name": "Coca Cola",
+        "address": "123 Coca Cola Ave, Atlanta, GA",
+        "phone": "1-800-GET-COKE",
+        "website": "https://www.coca-cola.com",
+        "image": "coca_cola_logo.png",
+        "membership_level": "Platinum",
+        "other_info": "Coca Cola is a global beverage company."
+      },
+
+      {
+        "name": "Coca Cola",
+        "address": "123 Coca Cola Ave, Atlanta, GA",
+        "phone": "1-800-GET-COKE",
+        "website": "https://www.coca-cola.com",
+        "image": "coca_cola_logo.png",
+        "membership_level": "Platinum",
+        "other_info": "Coca Cola is a global beverage company."
       }
       
     ]

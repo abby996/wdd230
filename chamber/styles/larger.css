@@ -160,7 +160,7 @@ main {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+	grid-template-columns: repeat(auto-fit, minmax(200px, 3 fr));
 	grid-gap: 5px;
 	align-items: center;
 }
@@ -174,7 +174,7 @@ main {
 	box-shadow: 0 0 10px #333;
 }
 
-.grid section > * {
+.grid section > * { 
 	margin: 0.1rem;
 }
 
