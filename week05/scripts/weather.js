@@ -1,6 +1,6 @@
 // Specify the latitude and longitude for Trier, Germany
-const lat = 49.7592; // Replace with the actual latitude
-const lon = 6.6417; // Replace with the actual longitude
+const lat = 49.7592;     
+const lon = 6.6417; 
 
 // Your API key from OpenWeatherMap
 const apiKey = '4c5d981292429b9f6f6291be2a352bb0'; // Replace with your actual API key

@@ -16,13 +16,6 @@ document.getElementById('lastModified').textContent = formatDate(oLastModif);
 
 //temperature
 
-function afficherTemperature() {
-    const temperatureCelsius = 25; // Remplacez cette valeur par la température en degrés Celsius que vous avez
-    const temperatureFahrenheit = (temperatureCelsius * 9/5) + 32;
-    const soleilEmoji = "\u{1F31E}";
-    const temperatureOutput = document.getElementById("temperatureOutput");
-    temperatureOutput.textContent = ` : ${temperatureFahrenheit}°F ${soleilEmoji} - Sunshine`;
-}
 
 document.addEventListener("DOMContentLoaded", function () {
     afficherTemperature();
@@ -84,11 +77,25 @@ localStorage.setItem("numVisits-ls", numVisits);
 // 💡A client can view the localStorage data using the Applications panel in the browsers's DevTools - check it out on any major site.
 
 
+// Specify the latitude and longitude for Trier, Haiti
+const lat = 18.5964;     
+const lon = -72.3150; 
+
+
 
 
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
+
+// Your API key from OpenWeatherMap
+const apiKey = '4c5d981292429b9f6f6291be2a352bb0'; 
+
+// Define the query string
+const queryString = `?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
+
+// Define the API URL with the query string
+const url = 'https://api.openweathermap.org/data/2.5/weather' + queryString;
 
 
 async function apiFetch() {
