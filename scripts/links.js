@@ -24,7 +24,7 @@ function displayLinks(){
 // Loop through the data and populate the list
 data.index.forEach((week) => {
     const weekItem = document.createElement("li");
-    const weekTitle = document.createElement("strong");
+    const weekTitle = document.createElement("title");
     weekTitle.textContent = `Week ${week.week}: `;
     weekItem.appendChild(weekTitle);
 }

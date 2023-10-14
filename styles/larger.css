@@ -16,6 +16,7 @@ header{
     margin: 0 auto;
     padding: 0;
     background: rgba(32, 125, 187, 0.7);
+	width: 850px;
 }
 
 
@@ -61,7 +62,7 @@ nav{
     
     margin: 0 auto;
     max-width: 850px;
-    
+    width:850px;
 }
 nav a {
     display:block}
@@ -150,6 +151,7 @@ footer {text-align: center;
         background:  #1e7bb9;
         margin-bottom: 5px;
         height: 100px;
+		width:850px;
 }
 
 
