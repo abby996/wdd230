@@ -160,7 +160,7 @@ main {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 3 fr));
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 5px;
 	align-items: center;
 }

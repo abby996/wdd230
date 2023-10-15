@@ -2,10 +2,10 @@
     "companies": [
       {
         "name": "Coca Cola",
-        "address": "123 Coca Cola Ave, Atlanta, GA",
+        "address": "11 206 2661000",
         "phone": "1-800-GET-COKE",
         "website": "https://www.coca-cola.com",
-        "image": "coca_cola_logo.png",
+        "image": "cocacola.jpg",
         "membership_level": "Platinum",
         "other_info": "Coca Cola is a global beverage company."
       },
@@ -22,52 +22,52 @@
 
       {
         "name": "Global indutrie",
-        "address": "123 Coca Cola Ave, Atlanta, GA",
-        "phone": "1-800-GET-COKE",
+        "address": "11 Harbor Park Drive, Port Washington, NY 11050 W-9 ",
+        "phone": "1-888-978-7759",
         "website": "https://www.globalindustrial.com/.com",
-        "image": "coca_cola_logo.png",
-        "membership_level": "Platinum",
-        "other_info": "Coca Cola is a global beverage company."
+        "image": "global.jpg",
+        "membership_level": "TWI industrial member",
+        "other_info": "Global Industrial is a business unit of Systemax Inc, a Fortune 1000 company."
       },
      
       {
-        "name": "Coca Cola",
-        "address": "123 Coca Cola Ave, Atlanta, GA",
-        "phone": "1-800-GET-COKE",
+        "name": "Amazon",
+        "address": "410 Terry Avenue North, Seattle, Washington, 98109",
+        "phone": "1 206 2661000",
         "website": "https://www.abcelectronique.com/",
-        "image": "coca_cola_logo.png",
-        "membership_level": "Platinum",
-        "other_info": "Coca Cola is a global beverage company."
+        "image": "amazon.jpg",
+        "membership_level": "multinational technology company",
+        "other_info": " focusing on e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence.."
       },
 
       {
-        "name": "Coca Cola",
-        "address": "123 Coca Cola Ave, Atlanta, GA",
-        "phone": "1-800-GET-COKE",
-        "website": "https://www.coca-cola.com",
-        "image": "coca_cola_logo.png",
-        "membership_level": "Platinum",
-        "other_info": "Coca Cola is a global beverage company."
+        "name": "Innovation Technology",
+        "address": "Derker Street, Oldham, Lancashire",
+        "phone": "+44 161 626 9999",
+        "website": "https://www.innovatechsrl.com/",
+        "image": "innovation.jpg",
+        "membership_level": "Corporate membership",
+        "other_info": "use of sound innovation management tools to aid in performance improvement.."
       },
 
       {
-        "name": "Coca Cola",
-        "address": "123 Coca Cola Ave, Atlanta, GA",
-        "phone": "1-800-GET-COKE",
-        "website": "https://www.coca-cola.com",
-        "image": "coca_cola_logo.png",
+        "name": "Mega Builder",
+        "address": "76 Rushmore Road, London, E5 0EX",
+        "phone": "+2 02 24022833",
+        "website": "https://megapros.com/",
+        "image": "megabuilder.jpg",
         "membership_level": "Platinum",
-        "other_info": "Coca Cola is a global beverage company."
+        "other_info": "sector company that is operating in the fields of real estate and project management."
       },
 
       {
-        "name": "Coca Cola",
-        "address": "123 Coca Cola Ave, Atlanta, GA",
-        "phone": "1-800-GET-COKE",
-        "website": "https://www.coca-cola.com",
-        "image": "coca_cola_logo.png",
-        "membership_level": "Platinum",
-        "other_info": "Coca Cola is a global beverage company."
+        "name": "ABC electronic",
+        "address": "4116 Boul Saint-laurent, Montreal, Quebec, H2W 1Y8",
+        "phone": "(514) 844-2461",
+        "website": "https://www.abcelectronique.com/",
+        "image": "abcelectro.jpg",
+        "membership_level": "Business Communication and Professional Quarterly",
+        "other_info": " Company offers voice and data cabling. A. B. C. Electronics."
       }
       
     ]
