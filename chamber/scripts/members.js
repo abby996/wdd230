@@ -1,3 +1,11 @@
+
+const baseURL=" https://abby996.github.io/wdd230/";
+
+const linksURL="https://abby996.github.io/wdd230/data/members.json";
+
+
+
+
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
