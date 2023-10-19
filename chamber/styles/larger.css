@@ -137,7 +137,7 @@ footer p {text-align: center;
 main {
 	margin: 0 auto;
 	padding: 0.5rem;
-	max-width: 950px;
+	max-width: 910px;
 	background-color: #ecfaf3;
 	font-family: Roboto, Helvetica, sans-serif;
 	
@@ -216,7 +216,7 @@ section h3 {
 }
 
 section p {
-	font-weight: 650;
+	font-weight: 600;
 	font-size: smaller;
 }
 
