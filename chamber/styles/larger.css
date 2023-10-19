@@ -137,7 +137,7 @@ footer p {text-align: center;
 main {
 	margin: 0 auto;
 	padding: 0.5rem;
-	max-width: 900px;
+	max-width: 950px;
 	background-color: #ecfaf3;
 	font-family: Roboto, Helvetica, sans-serif;
 	
@@ -170,7 +170,7 @@ main {
 }
 
 .grid img {
-	border: 1px solid #efdada;
+	border: 1px solid #f0cccc;
 	box-shadow: 0 0 10px #333;
 }
 
@@ -216,7 +216,7 @@ section h3 {
 }
 
 section p {
-	font-weight: 600;
+	font-weight: 650;
 	font-size: smaller;
 }
 
@@ -236,17 +236,4 @@ section img {
 }
 
 
-@media only screen and (min-width: 38rem) {
-    main { display: grid;
-		grid-template-columns: 2fr 1fr;
-		grid-template-columns: repeat(3, 1fr);
-	
-
-}
-    main h4 {grid-column: 1 / span 3;
-	         
-			 grid-row: 1/ 2;
-			
-
-	}
-}
+h6 {color:#ee6d04}
