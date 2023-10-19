@@ -78,8 +78,8 @@ localStorage.setItem("numVisits-ls", numVisits);
 
 
 // Specify the latitude and longitude for Trier, Haiti
-const lat = 18.5964;     
-const lon = -72.3150; 
+const lat = 49.7592;     
+const lon = 6.6417;  
 
 
 
