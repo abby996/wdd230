@@ -1,26 +1,49 @@
-{"weeks ":
-[
-   { "week": "week 1",
-   "links":[{
-    "url": "week01/holygrail.html",
-    "title":"Grail"},
-    {
-        "url":"week01/media-query.html",
-        "title":"mQueries"
-    }
-   ]
-   },
+{
+   "weeks": [
+       {
+           "week": "week 1",
+           "links": [
+               {
+                   "url": "week01/holygrail.html",
+                   "title": "Grail"
+               },
+               {
+                   "url": "week01/media-query.html",
+                   "title": "mQueries"
+               }
+           ]
+       },
+       {
+           "week": "week 2",
+           "links": [
+               {
+                   "url": "week02/design.html",
+                   "title": "Design |"
+               }
+           ]
+       }
+   ],
+
    
-
-
-
- {
-    "week": "week 2",
-    "links": [{
-     "url": "week02/design.html",
-     "title":"Design |"
-    }] 
-    
- }
-]
+   "members": [
+       {
+           "name": "Member 1",
+           "membershipLevel": "gold",
+           "advertisement_text": "We're the best in town!"
+           
+       },
+       {
+           "name": "Member 2",
+           "membershipLevel": "silver",
+           "advertisement_text": "Check out our products!"
+        
+       },
+       {
+           "name": "Member 3",
+           "membershipLevel": "bronze",
+           "advertisement_text": "Great deals inside!",
+           "description": "Description for Member 3"
+       }      
+      
+   ]
 }

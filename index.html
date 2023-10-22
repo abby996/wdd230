@@ -82,16 +82,47 @@
     <section class="card"  id="temparatureSection">
       
        <h3>Information</h3>
-      <p id="temperatureOutput"> </p> 
-      <p>Current temperature Haiti is <span id="current-temp"></span> 😃</p>
-      <p> Country,pretty,so cool,nice</p>
+      
+     
+      <div id="current-weather">
+       
+        <p><strong>Current temperature Haiti :</strong> <span id="current-temp"></span>😃</p>
+        <p><strong>Temperature:</strong> <span id="description" ></span>, Country,so cool,nice</p>
+    </div>
+
+     
+    
+    
+    <div id="spotlight-container"></div>
+    
+  <div id="meet-and-greet-banner">
+    <p>you are welcome my friend</p>
+    <!-- Close button -->
+    <button id="close-banner">❌</button>
+  
+     
+ 
+</div>
+
+  
+  
+  
+  
+     
+  </div>
+
+
+  
+
+
+
        
     <p><span class="label">Number of Visits: </span><span class="visits"></span></p>  
     <figure>
       <img id="weather-icon" src="images/weathericon.jpg" alt="weather-icon">
       <img src=https://openweathermap.org/img/w/10d.png   alt="openweather"> 
   
-      <figcaption></figcaption>
+    
     </figure>
     </section>
     
@@ -103,10 +134,12 @@
     
     <P id="copyright">  &copy; <span id="currentYear"></span>Abdias Brevil Port-au-Prince Haiti <img class="flag" src="images/IMG_4246.JPG" alt="flag">  </P>
     <p>Last modified   <span id="lastModified"> </span></p>
-       
+    <script src="scripts/links.js"></script> 
+    <script src="scripts/getDates.js"> </script>
+    <script src="data/links.json"></script> 
   </footer>
   
-  <script src="scripts/getDates.js"> </script>
-  <script src="data/links.json"></script>
+
+  
 </body>
 </html>
