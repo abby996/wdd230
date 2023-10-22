@@ -180,6 +180,11 @@ function showBanner() {
     }
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+  // Your JavaScript code here
+});
+
+
 // Function to hide the banner when the close button is clicked
 function closeBanner() {
     banner.style.display = 'none';
