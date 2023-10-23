@@ -11,7 +11,7 @@ header{
     display: flex;
     width: 800px;
     height: 100px;
-    background-color: #00ccff;
+    background-color: #eaa021b5;
     color: #fff;
     margin: 0 auto;
     padding: 0 ;
@@ -65,7 +65,7 @@ h4{
 
 footer {
     width: 800px;
-    background-color: #b5b2b2;
+    background-color: #af997eed;
     color: #fff;
     text-align: center;
     margin: 0 auto;
