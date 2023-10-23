@@ -14,7 +14,7 @@ header{
     background-color: #00ccff;
     color: #fff;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 ;
     border: 2px solid rgb(0, 0, 0, 0.1);
    
 }
@@ -38,7 +38,7 @@ section {
     width: 800px;
     background: #f8f6f6;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 ;
     border: 2px solid rgb(0, 0, 0, 0.1);
 
 }
@@ -69,7 +69,7 @@ footer {
     color: #fff;
     text-align: center;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 ;
     border: 2px solid rgb(0, 0, 0, 0.1);
 }
 
@@ -78,7 +78,7 @@ body {
     background-color: #f2f2f2;
     color: #333;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 ;
   
 }
 
