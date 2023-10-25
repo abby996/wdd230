@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");    
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -39,7 +42,7 @@ div{ margin-left: 15px;}
 
 h1{
     text-align: left;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Mooli', sans-serif;
     color: #bbb;
     
 	
