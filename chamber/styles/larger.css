@@ -110,12 +110,12 @@ div h1 {color: rgb(250, 0, 187);
     box-sizing: border-box;
 }
 
-/* Responsive design */
+/* Responsive design 
 @media (max-width: 768px) {
     .membership-level {
         width: 100%;
     }
-}
+}*/
 
 
 
