@@ -267,17 +267,22 @@ main {
 	align-items: center;
 }
 
+section .member{
+
+display:flex;
+align-items:center
+}
 
 /* large view navigation ************************************/
 @media only screen and (min-width: 38rem) {
     main { display: grid;
-		grid-template-columns: 2fr 1fr 1fr 1fr;
+		grid-template-columns: 2fr 2fr 3fr ;
 	
 
 }
-    main h4 {grid-column: 1 / span 3;
+    main h4 {grid-column: 2 / span 1 ;
 	         
-			 grid-row: 1/ 2;
+			 grid-row: 1/ 3;
 			
 
 	}
